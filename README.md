@@ -8,8 +8,7 @@ Aplicação para criação e manutenção de propostas de empréstimos
 - [Requisitos](#requisitos)
 - [Configuração](#configuração)
 - [Uso](#uso)
-- [Contribuição](#contribuição)
-- [Licença](#licença)
+- [Tests](#tests)
 
 ## Visão Geral
 
