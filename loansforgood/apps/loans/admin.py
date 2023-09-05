@@ -29,7 +29,7 @@ class ProposalAdminForm(forms.ModelForm):
         cleaned_data = super().clean()
         status = cleaned_data.get("status")
 
-        if status in [ProposalStatus.REJECTED, ProposalStatus.PENDING]:
+        if status in [ProposalStatus.REJECTED, ProposalStatus.PENDING, ProposalStatus.APPROVED]:
             self.fields["status"].widget.attrs["readonly"] = True
 
         return status
