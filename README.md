@@ -27,7 +27,7 @@ Aplicação para criação e manutenção de propostas de empréstimos, permite 
 
 ## Uso
 
-1. Para subir o projeto localmente utilize `docker-compose up` e aguarde até que todas as configurações sejam realizadas.
+1. Para subir o projeto localmente utilize `make dc-project-up` e aguarde até que todas as configurações sejam realizadas.
 2. Acesse [este link](http://localhost:3000/) para acessar a pagina de criação de propostas.
 3. Acesse [este link](http://localhost:8000/admin) para acessar as paginas de backoffice, nela clique logue com o usuário já criado com as seguintes informações: Username: `myuser`, Password: `mypassword`.
 4. Para criar novos campos para as propostas clique no botao `+ Add` ao lado de `Proposal fields` ou acesse `Proposal fields` e clique em `ADD PROPOSAL FIELD` ou  `+ Add`, adicione o nome do campo, o tipo e se é obrigatório e por fim clique em `SAVE`.
@@ -35,4 +35,4 @@ Aplicação para criação e manutenção de propostas de empréstimos, permite 
 
 ## Tests
 
-Caso queira ter acesso ao resultado dos testes utilize `docker-compose up test`
+Caso queira ter acesso ao resultado dos testes utilize `make dc-project-test`
